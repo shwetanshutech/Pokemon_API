@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./App.css";
+import "./Component.css";
+
 function Component() {
   const [num, setNum] = useState();
   const [name, setName] = useState();
@@ -17,7 +18,7 @@ function Component() {
     getData();
   });
   return (
-    <div className="app">
+    <div className="main">
       <div className="headings">
         <h1>
           You have to choose <span style={{ color: "red" }}>{num} value</span>{" "}

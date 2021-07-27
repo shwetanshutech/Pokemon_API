@@ -4,20 +4,17 @@
   box-sizing: border-box;
 }
 .app {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: fit;
+
+  background-image: linear-gradient(
+      rgba(39, 37, 38, 0.5),
+      rgba(192, 192, 181, 0.5)
+    ),
+    url("./assets/background.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-}
-.selectbox {
-  padding: 1rem;
-  margin: 2rem;
-  font-size: larger;
-  color: black;
-}
-
-.headings {
-  display: inline-block;
-  padding: 1rem;
-  margin: 1rem;
 }
